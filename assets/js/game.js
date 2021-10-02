@@ -186,6 +186,8 @@ var shop = function () {
   );
 
   // use switch case to carry out action
+  shopOptionPrompt = parseInt(shopOptionPrompt);
+
   switch (shopOptionPrompt) {
     case "REFILL":
     case "refill":
